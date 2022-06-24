@@ -1,0 +1,62 @@
+html {
+    /* The image used */
+    background-image: url("clouds.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+#convert {
+    background-color: #1b16168e;
+  }
+  #convert:hover {
+    background-color: #2778e8;
+  }
+  body{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.2em;
+        font-family: Verdana;
+  }
+  h1 {
+    text-align: center;
+    font-family: verdana;
+    color: #121313;
+  }
+  input {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #091a38; 
+    background-color: #8ecff5cb; 
+    margin: auto; 
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family: Verdana;
+  }
+  ::-webkit-input-placeholder {
+     color: #ffffff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  
+  button {
+    width: 10%;
+    margin: auto; 
+    text-align: center;
+    display: block;
+    font-family: Verdana;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #fffdfdf6;
+  }
